@@ -3,23 +3,23 @@ This guide walks through building a Multimodal Retrieval-Augmented Generation (R
 
 # Overview
 This multimodal RAG pipeline enables efficient document-based retrieval for financial analysis, medical research, and other domains requiring multimodal understanding.
-## Installing Dependencies
+**Installing Dependencies**
 - Required packages like LangChain, OpenAI, ChromaDB, and unstructured are installed for text parsing, embedding, and multimodal capabilities.
-## Extracting PDF Elements
+**Extracting PDF Elements**
 - The partition_pdf() function extracts text, tables, and images, preserving table structures and chunking large text blocks.
-## Categorizing Extracted Elements
+**Categorizing Extracted Elements**
 - Extracted content is classified as text or tables for further processing.
-## Splitting Text for Embeddings
+**Splitting Text for Embeddings**
 - Text is chunked (4,000 tokens per piece) to optimize retrieval and embedding in the vector store.
-## Generating Summaries
+**Generating Summaries**
 - Summaries are created for text and tables using GPT-4, improving retrieval efficiency.
-## Processing Images
+**Processing Images**
 - Images are encoded into Base64, stored, and summarized using GPT-4 Vision.
-## Creating a Multi-Vector Retriever
+**Creating a Multi-Vector Retriever**
 - A retriever indexes the summaries while linking them to original content (text, tables, or images) for retrieval.
-## Handling Multimodal Queries
+**Handling Multimodal Queries**
 - Text and images are retrieved, structured into a financial analysis prompt, and sent to GPT-4 Vision for intelligent responses.
-## Running and Validating the Pipeline
+**Running and Validating the Pipeline**
 - The system retrieves investment-related information using financial metrics (EV/NTM, revenue growth, etc.), retrieving relevant text and images for insights.
 
 
