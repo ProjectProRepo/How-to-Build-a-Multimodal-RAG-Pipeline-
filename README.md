@@ -52,4 +52,5 @@ The repository is organized as follows:
 ### **8. Running and Validating the Pipeline**  
 - The system retrieves **investment-related insights** using financial metrics (**EV/NTM, revenue growth, etc.**) by fetching relevant text and images.  
 
-
+# **Credits**  
+This implementation is inspired by the [LangChain Multi-Modal RAG Cookbook](https://github.com/langchain-ai/langchain/blob/master/cookbook/Multi_modal_RAG.ipynb).  
