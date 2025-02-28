@@ -4,7 +4,7 @@ This guide walks through building a Multimodal Retrieval-Augmented Generation (R
 # Overview
 This multimodal RAG pipeline enables efficient document-based retrieval for financial analysis, medical research, and other domains requiring multimodal understanding.
 ## Installing Dependencies
--Required packages like LangChain, OpenAI, ChromaDB, and unstructured are installed for text parsing, embedding, and multimodal capabilities.
+- Required packages like LangChain, OpenAI, ChromaDB, and unstructured are installed for text parsing, embedding, and multimodal capabilities.
 ## Extracting PDF Elements
 - The partition_pdf() function extracts text, tables, and images, preserving table structures and chunking large text blocks.
 ## Categorizing Extracted Elements
