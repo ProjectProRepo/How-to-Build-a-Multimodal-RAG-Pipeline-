@@ -14,14 +14,16 @@ Install the required dependencies for text parsing, embedding, and multimodal pr
 ## **File Structure**  
 The repository is organized as follows:  
 
-/Multimodal-RAG/ │── MultimodalRAG.ipynb # Main notebook implementing the pipeline 
-│── /cj/ # Directory containing external documents and images │ 
-├── cj.pdf # PDF document to process │
-├── figure-10-1.jpg # Image files for multimodal retrieval │
-├── figure-16-1.jpg
-│ ├── figure-5-1.jpg
-│ ├── figure-6-1.jpg
-│ ├── figure-7-1.jpg
+    Multimodal-RAG/  
+    ├── MultimodalRAG.ipynb     # Main notebook implementing the pipeline  
+    ├── cj/                     # Directory containing external documents and images  
+        ├── cj.pdf              # PDF document to process  
+        ├── figure-10-1.jpg     # Image files for multimodal retrieval  
+        ├── figure-16-1.jpg  
+        ├── figure-5-1.jpg  
+        ├── figure-6-1.jpg  
+        ├── figure-7-1.jpg  
+
 
 ## **Key Steps in the Pipeline**  
 
@@ -49,6 +51,5 @@ The repository is organized as follows:
 
 ### **8. Running and Validating the Pipeline**  
 - The system retrieves **investment-related insights** using financial metrics (**EV/NTM, revenue growth, etc.**) by fetching relevant text and images.  
-
 
 
