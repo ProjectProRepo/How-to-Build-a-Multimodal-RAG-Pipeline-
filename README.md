@@ -2,7 +2,7 @@
 This guide walks through building a Multimodal Retrieval-Augmented Generation (RAG) pipeline using LangChain and OpenAI’s GPT-4 Vision model. The pipeline extracts text, tables, and images from PDFs, summarizes them, stores them in a vector database, and retrieves relevant multimodal content to answer user queries.
 
 # **Overview**  
-This **multimodal RAG pipeline** enables efficient document-based retrieval for **financial analysis, medical research, and other domains** requiring multimodal understanding.  
+This **multimodal RAG pipeline** enables efficient document-based retrieval for **financial analysis, medical research, and other domains** requiring multimodal understanding.  You may read the detailed explanation of the code in this repository at [Multimodal RAG by ProjectPro](https://www.projectpro.io/article/multimodal-rag/1104)
 
 ## **Installation**  
 Install the required dependencies for text parsing, embedding, and multimodal processing:  
